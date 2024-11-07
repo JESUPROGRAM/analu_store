@@ -1,0 +1,107 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f1f7;
+    color: #333;
+}
+
+header {
+    background-color: #6a0dad; /* Color morado oscuro */
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#inicio {
+    background-color: #e6e0f0; /* Fondo morado claro */
+}
+
+#productos {
+    background-color: #f1e6f7; /* Fondo más claro para productos */
+}
+
+#catalogo {
+    background-color: #e6e0f0;
+}
+
+#contacto {
+    background-color: #f1e6f7;
+}
+
+.product {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.product h3 {
+    color: #6a0dad;
+}
+
+h2 {
+    color: #6a0dad;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #6a0dad;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label, form input, form textarea, form button {
+    margin-bottom: 0.5rem;
+}
+
+form button {
+    background-color: #6a0dad;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #570b9e;
+}
